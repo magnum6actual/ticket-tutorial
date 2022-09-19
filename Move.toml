@@ -1,0 +1,9 @@
+[package]
+name = 'tickets'
+version = '1.0.0'
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'devnet'
+subdir = 'aptos-move/framework/aptos-framework'
+[addresses]
+TicketTutorial = "0x5"
